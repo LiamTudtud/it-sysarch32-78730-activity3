@@ -9,7 +9,6 @@ h1 {
 
 p {
   color: #eb7676;
-  
   border: 2px solid #7a494d;
 }
 .App {
@@ -63,7 +62,7 @@ p {
 }
 
 .stats-column {
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 .stats-column p {

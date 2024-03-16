@@ -17,7 +17,7 @@ const Pokedex = () => {
   };
 
   const chunkedList = list.reduce((resultArray, item, index) => {
-    const chunkIndex = Math.floor(index / 2);
+    const chunkIndex = Math.floor(index / 3);
 
     if (!resultArray[chunkIndex]) {
       resultArray[chunkIndex] = [];
@@ -29,6 +29,7 @@ const Pokedex = () => {
   }, []);
 
   return (
+    
     <div className="pokedex">
       <div className="language-buttons">
         <button onClick={() => handleLanguageChange('english')}>English</button>

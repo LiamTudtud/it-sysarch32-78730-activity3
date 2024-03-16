@@ -1,9 +1,21 @@
+body {
+  background-color: #682a42;
+}
 
+h1 {
+  color: #fffdfd;
+  text-shadow: 4px 3px #110813;
+}
 
+p {
+  color: #eb7676;
+  
+  border: 2px solid #7a494d;
+}
 .App {
   text-align: center;
   margin-top: 50px;
-  background-color: #50313d;
+  
 }
 
 .pokemon {
@@ -13,13 +25,16 @@
   padding: 20px;
   margin: 10px;
   display: inline-block;
-  background-color: #a8e9f0;
+  background-color: #083338;
 
 }
 
 .pokemon img {
-  width: 200px;
-  height: 200px;
+  border-style: solid;
+  background: #aa9091;
+  border-color: #17191a;
+  width: 95px;
+  height: 95px;
   margin-bottom: 5px;
 }
 
